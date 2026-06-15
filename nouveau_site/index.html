@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clément Hanot — Portfolio audiovisuel &amp; création</title>
+    <meta name="description" content="Portfolio de Clément Hanot, étudiant MMI à Toulon. Académique &amp; professionnel : audiovisuel, photo, communication, web.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<header class="header">
+    <div class="navbar">
+        <a href="index.html" class="btn-profile">Clément&nbsp;Hanot<span class="dot">.</span></a>
+        <nav class="nav-links">
+            <a href="index.html#projects" class="is-active">Projets</a>
+            <a href="moi.html">Profil</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+    </div>
+</header>
+<div class="cursor-ring" aria-hidden="true"></div>
+<div class="cursor-dot" aria-hidden="true"></div>
+<div class="page-transition" aria-hidden="true"></div>
+
+<!-- ========== HERO ÉDITORIAL ========== -->
+<section class="hero box-section">
+    <div class="hero-bg">
+        <img src="img/image_pro.jpg" alt="" class="hero-img-left">
+    </div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+        <div class="hero-top">
+            <div class="hero-eyebrow">Portfolio · 2024 — 2027</div>
+            <div class="right">
+                <span>Toulon · Canada</span>
+                <span>FR · EN</span>
+                <span>En études au Canada · 2026–2027</span>
+            </div>
+        </div>
+
+        <h1>
+            <span class="row"><span class="word">Clément</span></span>
+            <span class="row"><span class="word"><span class="accent">Hanot</span><span class="dot" style="color:var(--rouge);">.</span></span></span>
+        </h1>
+
+        <p class="hero-subtitle">
+            MMI Toulon   · En échange au Canada — Audiovisuel, photographie, communication &amp; web.
+        </p>
+
+        <div class="hero-bottom">
+            <div class="filter-buttons" role="tablist" aria-label="Filtrer les projets par type">
+                <button class="filter-btn" data-type="Académique">Académique</button>
+                <button class="filter-btn active" data-type="Professionnel">Professionnel</button>
+            </div>
+            <div class="hero-scroll-hint">Scroll</div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== PROJETS ========== -->
+<section class="projects-section box-section" id="projects">
+    <header class="projects-header" data-reveal>
+        <div>
+            <div class="label">— Sélection</div>
+            <h2>Projets <em>récents</em></h2>
+        </div>
+        <div class="projects-count" id="projects-count">(00 projets)</div>
+    </header>
+
+    <div class="projects-layout">
+        <aside class="filters-sidebar" id="filters-sidebar" aria-label="Filtres">
+            <!-- généré par JS depuis projects.json -->
+            <div class="filters-group">
+                <h3>Chargement…</h3>
+            </div>
+        </aside>
+
+        <section class="projects">
+            <div class="projects-grid" id="projects-grid">
+                <div class="projects-empty">Chargement des projets…</div>
+            </div>
+        </section>
+    </div>
+</section>
+
+<!-- ========== STATS ========== -->
+<section class="stats-section box-section">
+    <div class="stats-inner">
+        <div class="stat" data-reveal>
+            <div class="stat-number" data-count="20">20<span class="plus">+</span></div>
+            <div class="stat-label">Projets<br>réalisés</div>
+        </div>
+        <div class="stat" data-reveal style="--delay:.1s;">
+            <div class="stat-number" data-count="3">3</div>
+            <div class="stat-label">Années<br>de pratique</div>
+        </div>
+        <div class="stat" data-reveal style="--delay:.2s;">
+            <div class="stat-number" data-count="8">8<span class="plus">+</span></div>
+            <div class="stat-label">Logiciels<br>maîtrisés</div>
+        </div>
+        <div class="stat" data-reveal style="--delay:.3s;">
+            <div class="stat-number"><em style="font-style:italic;color:var(--rouge);">∞</em></div>
+            <div class="stat-label">Idées<br>en chantier</div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== TIMELINE ========== -->
+<section class="timeline-section box-section">
+    <div class="timeline-inner">
+        <header class="timeline-header" data-reveal>
+            <div class="label">— Parcours</div>
+            <h2>Étapes <em>clés</em></h2>
+        </header>
+        <div class="timeline">
+            <article class="timeline-item" data-reveal="left">
+                <div class="timeline-year">2026–27</div>
+                <div class="timeline-title">
+                    Échange universitaire au Canada - BUT MMI 3
+                    <small>Audiovisuel · création · découverte</small>
+                </div>
+                <p class="timeline-desc">
+                    Une année d'études à l'étranger pour élargir ma vision, confronter mes pratiques
+                    à d'autres cultures créatives et continuer à produire.
+                </p>
+            </article>
+            <article class="timeline-item" data-reveal="left" style="--delay:.1s;">
+                <div class="timeline-year">2026</div>
+                <div class="timeline-title">
+                    Stage en entreprise — terminé
+                    <small>Audiovisuel · communication</small>
+                </div>
+                <p class="timeline-desc">
+                    Première expérience professionnelle dans la production audiovisuelle
+                    et la communication visuelle. Mise en pratique concrète de deux ans de formation.
+                </p>
+            </article>
+            <article class="timeline-item" data-reveal="left" style="--delay:.15s;">
+                <div class="timeline-year">2025</div>
+                <div class="timeline-title">
+                    BUT MMI — Année 2
+                    <small>Université de Toulon</small>
+                </div>
+                <p class="timeline-desc">
+                    Approfondissement des techniques de production audiovisuelle, montage, motion design
+                    et développement web. Réalisation de projets transversaux et professionnels.
+                </p>
+            </article>
+            <article class="timeline-item" data-reveal="left" style="--delay:.2s;">
+                <div class="timeline-year">2024</div>
+                <div class="timeline-title">
+                    BUT MMI — Année 1
+                    <small>Métiers du Multimédia &amp; de l'Internet</small>
+                </div>
+                <p class="timeline-desc">
+                    Initiation aux fondamentaux : photographie, cadrage, écriture audiovisuelle,
+                    web design, UX et culture numérique. Premiers projets publiés.
+                </p>
+            </article>
+            <article class="timeline-item" data-reveal="left" style="--delay:.3s;">
+                <div class="timeline-year">2023</div>
+                <div class="timeline-title">
+                    Baccalauréat
+                    <small>Île-de-France → Var</small>
+                </div>
+                <p class="timeline-desc">
+                    Obtention du baccalauréat, puis installation dans le Sud pour entamer
+                    un parcours dédié à la création numérique et à l'image.
+                </p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer id="contact" class="footer box-section">
+    <div class="footer-inner">
+        <div class="contact-section">
+            <h3 class="contact-title">— Travaillons ensemble</h3>
+            <a href="mailto:clementhanot77@gmail.com" class="contact-email">clementhanot77@gmail.com</a>
+            <p class="contact-text">Toulon · Canada · En échange 2026–2027</p>
+        </div>
+        <div class="socials">
+            <a href="#" class="contact-icon" data-label="LinkedIn">
+                <img src="img/linkedin.png" alt="" width="22" height="22">
+            </a>
+            <a href="mailto:clementhanot77@gmail.com" class="contact-icon" data-label="Mail">
+                <img src="img/gmail.png" alt="" width="22" height="22">
+            </a>
+            <a href="#" class="contact-icon" data-label="Instagram">
+                <img src="img/instagram.png" alt="" width="22" height="22">
+            </a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <span>© 2026 — Clément Hanot · Tous droits réservés</span>
+        <a href="index.html" class="footer-link">Retour en haut ↑</a>
+    </div>
+</footer>
+
+<script src="js/projects.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>

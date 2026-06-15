@@ -1,0 +1,2 @@
+# Affiche les 200 dernières lignes
+Get-Content .\debug_ajout.log -Tail 200

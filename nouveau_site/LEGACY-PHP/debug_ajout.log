@@ -1,0 +1,279 @@
+--- 2025-12-13 16:35:02 ---
+SESSION: Array
+(
+    [admin] => 1
+    [admin_user] => admin
+)
+
+POST: Array
+(
+    [title] => bdfsb
+    [year] => sfgsg
+    [domain] => qdfgsd
+    [skills] => Array
+        (
+            [0] => gsdgf
+            [1] => gsdfgsdg
+            [2] => sgfsgq
+        )
+
+    [description] => gdgsgg
+    [link] => fsdgs
+)
+
+FILES: Array
+(
+    [image] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 
+                )
+
+            [type] => Array
+                (
+                    [0] => 
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => 
+                )
+
+            [error] => Array
+                (
+                    [0] => 4
+                )
+
+            [size] => Array
+                (
+                    [0] => 0
+                )
+
+        )
+
+)
+
+Insert OK, projectId=1
+
+--- 2025-12-13 16:47:23 ---
+SESSION: Array
+(
+    [admin] => 1
+    [admin_user] => admin
+)
+
+POST: Array
+(
+    [title] => sgfdg
+    [year] => fdsgg
+    [domain] => qgfd
+    [type] => Académique
+    [skills] => Array
+        (
+            [0] => sgfdg
+            [1] => sgfdg
+            [2] => qdgf
+        )
+
+    [description] => egg
+    [link] => aferg
+)
+
+FILES: Array
+(
+    [image] => Array
+        (
+            [name] => Array
+                (
+                    [0] => phamtom.PNG
+                    [1] => pingouin de base.png
+                )
+
+            [full_path] => Array
+                (
+                    [0] => phamtom.PNG
+                    [1] => pingouin de base.png
+                )
+
+            [type] => Array
+                (
+                    [0] => image/png
+                    [1] => image/png
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\phpC098.tmp
+                    [1] => C:\xampp\tmp\phpC0F6.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 2317053
+                    [1] => 2912701
+                )
+
+        )
+
+)
+
+Insert OK, projectId=2
+
+--- 2025-12-13 17:01:19 ---
+SESSION: Array
+(
+    [admin] => 1
+    [admin_user] => admin
+)
+
+POST: Array
+(
+    [title] => fsdff
+    [year] => dqsf
+    [domain] => fdqsf
+    [type] => Professionnel
+    [skills] => Array
+        (
+            [0] => qsfdqdsf
+            [1] => dqf
+            [2] => qsfdf
+        )
+
+    [description] => fqsdf
+    [link] => fdqsf
+)
+
+FILES: Array
+(
+    [image] => Array
+        (
+            [name] => Array
+                (
+                    [0] => GAMESCREEN_Hanot.png
+                    [1] => image_pro.jpg
+                )
+
+            [full_path] => Array
+                (
+                    [0] => GAMESCREEN_Hanot.png
+                    [1] => image_pro.jpg
+                )
+
+            [type] => Array
+                (
+                    [0] => image/png
+                    [1] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\php81AD.tmp
+                    [1] => C:\xampp\tmp\php821B.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 2375773
+                    [1] => 13019187
+                )
+
+        )
+
+)
+
+Insert OK, projectId=3
+
+--- 2025-12-13 18:09:01 ---
+SESSION: Array
+(
+    [admin] => 1
+    [admin_user] => admin
+)
+
+POST: Array
+(
+    [title] => Shooting Photo
+    [year] => 2025
+    [domain] => Audiovisuel
+    [type] => Professionnel
+    [skills] => Array
+        (
+            [0] => Colorimétrie
+            [1] => Photographie
+            [2] => Montage
+        )
+
+    [description] => J'ai réalisé un shooting photo au circuit du Var (luc) avec un Canon R7. J'ai ensuite retouché toutes mes photos et fait un édit vidéos.
+    [link] => https://youtu.be/EY-o3ztn7C4
+)
+
+FILES: Array
+(
+    [image] => Array
+        (
+            [name] => Array
+                (
+                    [0] => DC2A0942.jpg
+                    [1] => DC2A0968.jpg
+                    [2] => DC2A0971.jpg
+                )
+
+            [full_path] => Array
+                (
+                    [0] => DC2A0942.jpg
+                    [1] => DC2A0968.jpg
+                    [2] => DC2A0971.jpg
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                    [1] => image/jpeg
+                    [2] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\php7B78.tmp
+                    [1] => C:\xampp\tmp\php7B98.tmp
+                    [2] => C:\xampp\tmp\php7BC8.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 2388057
+                    [1] => 2745081
+                    [2] => 2479644
+                )
+
+        )
+
+)
+
+Insert OK, projectId=4
+
