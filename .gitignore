@@ -1,0 +1,26 @@
+# Logs PHP / debug (legacy)
+*.log
+debug_*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (au cas où on ajoute un outil plus tard)
+node_modules/
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*~
+
+# Anciens fichiers PHP (le site est désormais 100% statique — voir LEGACY-PHP/)
+# Si tu veux garder les anciens fichiers PHP localement sans les pousser sur GitHub, déplace-les dans un dossier `LEGACY-PHP/` et décommente la ligne ci-dessous :
+# LEGACY-PHP/
