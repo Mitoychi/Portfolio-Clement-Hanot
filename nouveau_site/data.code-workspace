@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "data"
+		},
+		{
+			"path": "img"
+		},
+		{
+			"path": "js"
+		},
+		{
+			"path": "LEGACY-PHP"
+		},
+		{
+			"path": "uploads"
+		}
+	],
+	"settings": {}
+}
